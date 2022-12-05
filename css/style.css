@@ -9,7 +9,6 @@
 .box {
     background-color: #006cfa;
     width: 100%;
-    height: 50px;
     border: 1px solid white;
     color: white;
     text-align: center;
@@ -19,9 +18,17 @@
 .sub-box {
     background-color: #00e165;
     width: 100%;
-    height: 30px;
     border: 1px solid white;
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding: 10px 0;
+}
+
+.box-no-text {
+    background-color: #006cfa;
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
 }
